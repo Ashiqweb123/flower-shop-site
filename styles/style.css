@@ -138,6 +138,46 @@ section {
 .lover-desc {
   color: #00000080;
 }
+.join {
+  background-image: url("../assets/news-letter-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+.join-content {
+  margin-top: 200px;
+}
+.color-branch img {
+  width: 100%;
+}
+.join-content h2 {
+  color: white;
+
+  font-size: 30px;
+  font-weight: 600;
+
+  text-align: center;
+}
+
+#btn-subscribe {
+  width: 150px;
+  padding: 15px 25px;
+  border: none;
+  margin-left: 10px;
+  background-color: #e95a08;
+  color: #fff;
+}
+.text-field {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+.text-field input[type="text"] {
+  width: 350px;
+  padding: 15px 25px;
+
+  border-radius: 5px;
+}
 footer ul li {
   list-style: none;
   color: rgb(107, 114, 128);
@@ -245,6 +285,15 @@ footer p {
   }
   .image .flower-store {
     width: 100%;
+  }
+  .join {
+    width: 100%;
+  }
+  .join-content {
+    width: 100%;
+  }
+  .text-field input[type="text"] {
+    width: 50%;
   }
   .footer-container,
   .footer-flex {
